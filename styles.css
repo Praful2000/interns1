@@ -1,0 +1,50 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.row{
+  text-align: center;
+}
+.uploadImages
+{
+
+ background-image: url('images/bg.jpg');
+ width: 95%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: absolute;
+}
+h2,h5{
+  color: #540e33;
+}
+@media (max-width : 720px) {
+
+h2{
+  font-size: 5rem;
+}
+h5{
+  font-size: 3rem;
+}
+.img{
+  height: 560px;
+  width: 400px;
+}
+
+
+}
+@media (max-width : 1000px) {
+
+h2{
+  font-size: 5rem;
+}
+h5{
+  font-size: 3rem;
+}
+.img{
+  height: 520px;
+  width: 300px;
+}
+
+
+}
